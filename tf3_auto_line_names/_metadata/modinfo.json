@@ -1,0 +1,12 @@
+{
+  "name": "Auto Line Names",
+  "summary": "Benennt Linien nach Start/Ziel, Personen/Fracht und Verkehrsmittel.",
+  "description": "Benennt Linien automatisch, z. B. 'Hamburg - Berlin' mit Kennzeichnung fuer Strasse, Schiene, Wasser, Luft sowie Personen oder Fracht. Einstellungen in content/scripts/linenamer_config.lua.",
+  "localization": {
+    "en": { "name": "Auto Line Names", "summary": "Names lines by route, passengers/cargo and transport mode." }
+  },
+  "authors": [ { "name": "Patrick", "role": "CREATOR" } ],
+  "tags": [ "Script Mod" ],
+  "dependencies": [],
+  "url": ""
+}

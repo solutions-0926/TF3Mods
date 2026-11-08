@@ -24,3 +24,20 @@ Erkennt Strasse, Schiene, Wasser, Luft sowie Personen oder Fracht. Eigene Namen 
 ### Wenn es nicht laeuft
 Log-Meldungen mit `[AutoLineNames]` ansehen. Alle API-abhaengigen Stellen sind in
 `res/config/game_script/linenamer.lua` mit `-- API:` markiert.
+
+---
+
+## Auto Line Names (`tf3_auto_line_names`)
+
+Benennt Linien automatisch nach Start/Ziel, Personen/Fracht und Strasse/Schiene/Wasser/Luft.
+
+**Status:** ungetestet in TF3: Game-Script-Registrierung ist im TF3-Wiki noch nicht dokumentiert.
+
+### Installation
+Ordner `tf3_auto_line_names` in den `mods`-Ordner von TF3 kopieren.
+
+### Einstellungen
+In `content/scripts/linenamer_config.lua`.
+
+### Probelauf
+`dryRun = true` setzen: die Mod schreibt nur ins Log (`stdout.txt`, Zeilen mit `[AutoLineNames]`), was sie umbenennen wuerde.
